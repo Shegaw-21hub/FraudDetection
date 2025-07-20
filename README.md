@@ -96,6 +96,30 @@ This notebook focuses on interpreting the best-performing models using SHAP:
 - **Matplotlib**: Plotting and visualization  
 - **Seaborn**: Enhanced statistical data visualization  
 - **SHAP**: Model interpretability (Shapley Additive exPlanations)
+
+## 🧪 Testing & Continuous Integration/Continuous Deployment (CI/CD)
+
+To ensure **code quality**, **reliability**, and **reproducibility**, this project incorporates **unit testing** and a **Continuous Integration (CI)** pipeline.
+
+### ✅ Unit Tests
+Implemented using `pytest`, unit tests rigorously validate individual components of the **data preprocessing** and **feature engineering** pipeline.  
+This ensures the correctness of critical functions like:
+- **IP-to-country mapping**
+- **Transaction velocity calculations**
+
+### 🔄 Continuous Integration (CI)
+A **GitHub Actions workflow** (`.github/workflows/ci.yml`) automates the following on every **push to the `main` branch** and on **pull requests**:
+
+- 📦 **Dependency Installation**: Ensures all necessary libraries are correctly set up.  
+- 🧪 **Dummy Data Creation**: Creates essential placeholder data files for the CI environment to allow notebooks to run without external data dependencies.  
+- 🧫 **Unit Test Execution**: Runs all defined unit tests to catch regressions early.  
+- 📊 **Notebook Execution**: Executes all Jupyter notebooks (`eda.ipynb`, `modeling.ipynb`, `explainability.ipynb`) from start to finish, verifying that the entire analytical pipeline runs without errors and is reproducible.
+
+---
+
+This automated **testing and integration** process guarantees that the project’s core logic remains sound and that the analytical results can be **consistently reproduced**.
+
+
 ## How to Run the Project
 
 To run this project, please follow the steps below:
