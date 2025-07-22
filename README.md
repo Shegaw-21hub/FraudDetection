@@ -317,7 +317,7 @@ The models were evaluated using F1-Score, AUC-ROC, and AUC-PR, which are critica
 This project successfully developed and evaluated a machine learning-based fraud detection system, demonstrating proficiency in data preprocessing, strategic feature engineering, effective handling of class imbalance, building and evaluating high-performance machine learning models (LightGBM), and providing crucial interpretability through SHAP analysis. The adoption of a modular project structure and the integration of unit testing and a CI pipeline further solidify the project's adherence to professional software engineering standards, ensuring reliability and reproducibility.
 
 ---
-
+## Author & Contact Information
 **Author:** Shegaw Adugna Melaku  
 **GitHub:** [Shegaw-21hub/FraudDetection](https://github.com/Shegaw-21hub/FraudDetection)  
 **LinkedIn:** [shegaw-adugna](https://www.linkedin.com/in/shegaw-adugna-b751a1166/)  
