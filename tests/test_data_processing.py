@@ -4,7 +4,7 @@ import pytest
 from datetime import datetime, timedelta
 
 # Import actual functions from src modules
-# Ensure your project is installed in editable mode (pip install -e .)
+# Ensure project is installed in editable mode (pip install -e .)
 # and pytest.ini has pythonpath = src
 from src.feature_engineer import get_country, engineer_fraud_features
 from src.data_cleaner import clean_fraud_data # For testing ip_address coercion logic
